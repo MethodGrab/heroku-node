@@ -20,6 +20,7 @@
     "button"
   ],
   "author": "MethodGrab",
+  "repository": "MethodGrab/heroku-node"
   "license": "MIT",
   "dependencies": {
     "coffee-script": "^1.9.3",
