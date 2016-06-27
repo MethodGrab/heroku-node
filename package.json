@@ -4,7 +4,8 @@
   "description": "A barebones Node.js app using Express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run lint",
+    "lint": "eslint *.js",
     "start": "node index.js",
     "start:dev": "nodemon index.js"
   },
@@ -23,12 +24,12 @@
   "repository": "MethodGrab/heroku-node",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.1",
-    "morgan": "^1.6.1"
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
   },
   "devDependencies": {
-    "@methodgrab/eslint-config-standard": "^0.6.0",
-    "eslint": "^1.10.3",
+    "@methodgrab/eslint-config-standard": "^0.8.0",
+    "eslint": "^2.13.1",
     "nodemon": "^1.8.1"
   },
   "engines": {
