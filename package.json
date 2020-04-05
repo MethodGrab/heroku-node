@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@methodgrab/eslint-config-standard": "^0.8.0",
-    "eslint": "^2.13.1",
+    "eslint": "^6.8.0",
     "nodemon": "^1.8.1"
   },
   "engines": {
